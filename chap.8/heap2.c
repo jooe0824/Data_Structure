@@ -30,7 +30,7 @@ void makeheap(int heap[], int root, int n){
             break;
         }
         else{
-            heap[child/2] = heap[child];
+            heap[child/2] = heap[child]; //이거 한줄 때문에?!
             child = child*2;
         }
         
